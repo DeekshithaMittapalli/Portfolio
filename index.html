@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>[Your Name] - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Times new roman';
+      background: linear-gradient(135deg,#f2aea6);
+      color: #333;
+    }
+    header {
+      font-family: 'Lucida calligraphy', cursive;
+      background: #490808;
+      color: #fff;
+      padding: 40px 0 20px 0;
+      text-align: center;
+      position: relative;
+    }
+    .greeting-bar {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .greeting-bar span {
+      font-size: 1.3em;
+      color: #800020;
+      letter-spacing: 1px;
+      background: #fff5f7;
+      padding: 7px 24px;
+      border-radius: 18px;
+      display: inline-block;
+      font-weight: 700;
+    }
+    .profile-container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .profile-photo {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      border: 4px solid #c0a0b0;
+      margin-bottom: 15px;
+      background: #fff;
+      object-fit: cover;
+    }
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 18px;
+      font-size: 18px;
+      font-weight: 500;
+      transition: color .2s;
+    }
+    nav a:hover {
+      color: #e0aede;
+    }
+    section {
+      max-width: 800px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 4px 24px rgba(128,0,32,.05);
+    }
+    h1{
+        color: #fff;
+    }
+    h2, h3 {
+      color: #800020;
+      margin-top: 0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 28px;
+      background: #800020;
+      color: #fff;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: 500;
+      box-shadow: 0 2px 8px rgba(128,0,32,.12);
+      transition: background .2s;
+    }
+    .btn:hover {
+      background: #fff;
+      color: #a31f34;
+    }
+    ul {
+      padding-left: 22px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      margin: 7px 0 15px 0;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid #800020;
+      font-size: 16px;
+      background: #f8f4f8;
+      color: #800020;
+    }
+    .contact-form button {
+      background: #fff;
+      color: #800020;
+      border: none;
+      padding: 10px 24px;
+      font-size: 16px;
+      border-radius: 7px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background: #fff;
+    }
+    footer {
+      background: #800020;
+      color: #fff;
+      text-align: center;
+      padding: 18px 0;
+      letter-spacing: 2px;
+      margin-top: 35px;
+      border-top-left-radius: 14px;
+      border-top-right-radius: 14px;
+    }
+    @media(max-width:600px){
+      section {padding: 14px;}
+      .profile-container {flex-direction: column;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="greeting-bar">
+      <span>Welcome to My Portfolio!</span>
+    </div>
+    <div class="profile-container">
+      <!-- Replace the URL with your actual profile photo -->
+      <img src="profile.jpg" alt="Profile Photo" class="profile-photo"/>
+      <div>
+        <h1>Deekshitha Mittapalli</h1>
+        <p>Aspiring Software Developer | Web Development Projects | Java | Python | C</p>
+      </div>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#skills" class="btn" style="margin-top:24px;display:inline-block;">Explore More</a>
+  </header>
+  <!-- ... rest of your code remains unchanged ... -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm <strong>Deekshitha Mittapalli</strong>, An enthusiastic and curious learner with a deep passion for problem-solving and innovation. I thrive in dynamic environments where I can apply analytical thinking, creativity, and adaptability to overcome challenges. 
+Eager to continuously expand my knowledge and skill set, I aim to contribute meaningfully to projects that drive growth and create a positive impact. My goal is to collaborate with forward-thinking teams, embrace new technologies, and turn ideas into effective solutions that make a real difference.
+    </p>
+  </section>
+  <section id="skills">
+    <h2>My Skills</h2>
+    <h3>Programming Languages</h3>
+    <ul>
+      <li>C</li>
+      <li>Python</li>
+      <li>Java</li>
+      <li>c++</li>
+    </ul>
+    <h3>Web Development</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+     </ul>
+    <h3>Databases</h3>
+    <ul>
+      <li>MySQL</li>
+      <li>Oracle database(run sql)</li>
+    </ul>
+    
+  </section>
+  <section id="projects">
+  <h2>My Projects</h2>
+  <h3>Women Safety System using IoT Embedded Systems</h3>
+  <p>
+<img src="C:\Users\DEEKSHITHA\Downloads\ChatGPT Image Nov 2, 2025, 01_19_11 PM.png" alt="Women Safety IoT Watch" style="width:100%; max-width:400px; border-radius:12px; margin:20px 0; box-shadow:0 4px 12px rgba(0,0,0,0.1);" />
+
+    Designed and developed a smart IoT-enabled safety watch that provides quick emergency response for women in unsafe situations. Built using Arduino IDE, the device integrates GSM and GPS modules with multiple sensors to monitor user activity and enable instant communication during distress.
+  </p>
+
+  <!-- Insert your project image below -->
+  
+  <h4>When the panic button is pressed:</h4>
+  <ul>
+    <li>A buzzer activates to alert nearby people.</li>
+    <li>The system sends a predefined alert message with live GPS location to the user’s selected guardians via a linked mobile application.</li>
+  </ul>
+
+  <p>
+    This project demonstrates the seamless integration of hardware and IoT communication, offering an effective, real-time, and portable personal safety solution.
+  </p>
+</section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <label>Name:</label>
+      <input type="text" name="name" required />
+      <label>Email:</label>
+      <input type="email" name="email" required />
+      <label>Message:</label>
+      <textarea name="message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <footer>
+    &copy; 2025 Deekshitha Mittapalli | All rights reserved
+  </footer>
+</body>
+</html>
